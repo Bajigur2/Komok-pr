@@ -9,31 +9,38 @@ from urllib import urlopen
 import requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+#cl.login(qr=True)
+cl.login(token="-")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+#ki.login(qr=True)
+ki.login(token="-")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
+#kk.login(qr=True)
+kk.login(token="-")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(qr=True)
+#kc.login(qr=True)
+kc.login(token="-")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(qr=True)
+#kd.login(qr=True)
+cl.login(token="-")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(qr=True)
+#ke.login(qr=True)
+ke.login(token="-")
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(qr=True)
+#kf.login(qr=True)
+kf.login(token="-")
 kf.loginResult()
 
 kg = LINETCR.LINE()
@@ -41,47 +48,58 @@ kg.login(qr=True)
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(qr=True)
+#kh.login(qr=True)
+kh.login(token="-")
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(qr=True)
+#kj.login(qr=True)
+kj.login(token="-")
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(qr=True)
+#kl.login(qr=True)
+kl.login(token="-")
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(qr=True)
+#km.login(qr=True)
+km.login(token="-")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(qr=True)
+#kn.login(qr=True)
+kn.login(token="-")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(qr=True)
+#ko.login(qr=True)
+ko.login(token="-")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(qr=True)
+#kp.login(qr=True)
+kp.login(token="-")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(qr=True)
+#kq.login(qr=True)
+kq.login(token="-")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(qr=True)
+#kr.login(qr=True)
+kr.login(token="-")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(qr=True)
+#ks.login(qr=True)
+ks.login(token="-")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(qr=True)
+#kt.login(qr=True)
+kt.login(token="-")
 kt.loginResult()
 
 print "Astrobot"
@@ -158,9 +176,9 @@ wait = {
     "alwayRead":False,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add me Follow my insragram https://instagram.com/michaelf.s",
+    'message':"Thanks for add me 😍😍",
     "lang":"JP",
-    "comment":"AutoLike by Astrobot",
+    "comment":"AutoLike by ŔèďBøť",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
@@ -2033,7 +2051,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
